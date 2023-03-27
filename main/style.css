@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap')
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background-color: rgb(14, 13, 13);
+	color: #fff;
+	padding: 20px;
+}
+
+nav {
+	background-color: #eee;
+	padding: 10px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+
+}
+
+nav a {
+	color: #333;
+	text-decoration: none;
+}
+
+section {
+	padding: 20px;
+}
+
+footer {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+.head{
+	text-align: center;
+}
+.para{
+	 color: black;
+	 background-color: azure;
+}
+.image9{
+	display: block;
+	margin-left: 100px;
+	margin-right: 100px;
+	width: 50%;
+}
+.head1{
+	background-color: rgb(255, 255, 255);
+	color: rgb(68, 0, 253);
+	padding: 20px, 4px;
+}
+	nav li:hover{
+
+            background-color:  rgba(0, 217, 255, 0.815);
+			padding: 8px;
+	}
+	.head{
+		font-family: 'Oswald', sans-serif;
+	}
+.image8{
+	
+}
+.button3{
+	padding: 8px;
+	background-color: royalblue;
+
+	border: 4px;
+	border-color:rgb(14, 13, 13);
+}
+.body9{
+	background-image: image-set("images.png");
+}
+.ht8{
+	background-color: aqua;
+
+}
+.log1{
+            border: 4px;
+			border-color: rgb(3, 3, 83);
+			align-items: center;
+}
+.sp{
+	text-align: center;
+}
+.calculator {
+	margin: 20px;
+	border: 1px solid #ccc;
+	padding: 10px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 5px;
+}
+button {
+	padding: 10px;
+	font-size: 20px;
+	border: none;
+	background-color: #f0f0f0;
+	cursor: pointer;
+}
+button:hover {
+	background-color: #e0e0e0;
+}
+#result {
+	grid-column: 1/5;
+	padding: 10px;
+	font-size: 20px;
+	border: none;
+	text-align: right;
+}
+img{
+	border: 8px;
+	border-color: brown;
+	align-content: center;
+	alt:"Thanks";
+
+}
+
+
+
+
+
+
+
